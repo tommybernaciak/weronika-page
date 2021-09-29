@@ -1,13 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.weronikabern.com",
     title: "weronika-page",
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -16,6 +14,9 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-postcss",
+    `gatsby-plugin-netlify-cms`,
   ],
 };
