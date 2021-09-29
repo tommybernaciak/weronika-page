@@ -5,7 +5,6 @@ import Pictures from "../components/pictures";
 const IndexPage = () => {
   return (
     <Layout>
-      <div>test</div>
       <Pictures />
     </Layout>
   );

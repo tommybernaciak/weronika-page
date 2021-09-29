@@ -6,7 +6,7 @@ const Layout = ({ children }) => (
     <header>
       <Navbar />
     </header>
-    <main>{children}</main>
+    <main className="mt-8">{children}</main>
     <footer>footer</footer>
   </div>
 );
